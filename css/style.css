@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, violet, blue);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.login-box, .register-box {
+    background-color: rgba(0, 0, 255, 0.5);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, violet, darkviolet);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(135deg, blue, violet);
+    transition: background 0.3s ease;
+}
+
+.post-box {
+    background-color: rgba(0, 0, 255, 0.5);
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.post {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
